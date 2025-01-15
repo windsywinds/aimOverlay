@@ -56,12 +56,12 @@ public class Shortcuts {
                 else if (keyCode == NativeKeyEvent.VC_X && isSettingsOverlayVisible) {
                     crosshair.cycleStyle();
                 }
-                // Handle F4 to toggle the crosshair overlay
-                else if (keyCode == NativeKeyEvent.VC_F4) {
+                // Handle F3 to toggle the crosshair overlay
+                else if (keyCode == NativeKeyEvent.VC_F3) {
                     crosshair.toggleCrosshair();
                 }
-                // Handle F3 to exit the application
-                else if (keyCode == NativeKeyEvent.VC_F3) {
+                // Handle F4 to exit the application
+                else if (keyCode == NativeKeyEvent.VC_F4) {
                     try {
                         GlobalScreen.unregisterNativeHook(); // Unregister the hook before exit
                     } catch (NativeHookException ex) {

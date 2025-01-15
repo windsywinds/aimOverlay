@@ -27,15 +27,20 @@ public class Settings {
         // Add text instructions to the overlay
         JLabel textLabel = new JLabel(
                 "<html>" +
+                        "aimOverlay v1.0" +
+                        "<br>" + "<br>" + "<br>" +
+
                         "X: Change crosshair type" +
                         "<br>" +
                         "C: Change crosshair size" +
-                        "<br>" +
-                        "F4: Toggle Crosshair Overlay" +
-                        "<br>" +
+                        "<br>" + "<br>" +
+
                         "F2: Toggle Settings Overlay" +
                         "<br>" +
-                        "F3: Exit Application" +
+                        "F3: Toggle Crosshair Overlay" +
+                        "<br>" + "<br>" +
+
+                        "F4: Exit Application" +
                         "</html>",
                 SwingConstants.CENTER);
         // Define text styling
@@ -47,13 +52,16 @@ public class Settings {
         // Add the text label to the panel
         panel.add(textLabel, BorderLayout.CENTER);
 
+
+
+
         // Add the panel to the frame
         frame.getContentPane().add(panel);
 
         // Sets the size and position of the frame
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int frameWidth = 300;  // Customize the width of the overlay
-        int frameHeight = 150; // Customize the height of the overlay
+        int frameHeight = 250; // Customize the height of the overlay
         int x = (screenSize.width - frameWidth) / 1;
         int y = (screenSize.height - frameHeight) / 8;
         frame.setBounds(x, y, frameWidth, frameHeight);

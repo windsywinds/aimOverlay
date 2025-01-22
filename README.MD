@@ -18,7 +18,7 @@ C: Increase crosshair size (resets at size 10)
 
 Users can create their own custom overlays by following the naming scheme of "crosshair" + number + ".png" e.g. "crosshair4.png"  
 These can be placed in the /overlay directory alongside, 
-or replacing the existing corsshair images. 
+or replacing the existing crosshair images. 
 There must always be a "crosshair1.png" as this is what the application will default to.
 
 <!-- MARKDOWN LINKS & IMAGES -->

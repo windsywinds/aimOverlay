@@ -4,6 +4,8 @@ A crosshair overlay executable for windows made in Java
 
 This application will create an always-on-top overlay of a predefined image that centers in the middle of the screen. The user can cycle through different crosshair styles, adjust the size, and toggle the overlay on/off.
 
+![Product Name Screen Shot][product-screenshot]
+
 # In-app global shortcuts
 
 F2: Toggle the settings overlay on/off  
@@ -18,3 +20,7 @@ Users can create their own custom overlays by following the naming scheme of "cr
 These can be placed in the /overlay directory alongside, 
 or replacing the existing corsshair images. 
 There must always be a "crosshair1.png" as this is what the application will default to.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[product-screenshot]: https://windsywinds.github.io/thumbnails/overlaythumb.jpg
